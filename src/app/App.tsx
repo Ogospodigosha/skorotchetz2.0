@@ -1,8 +1,17 @@
 import React from 'react';
+import {Button} from "app/ui/button/button";
 
 function App() {
     return (
-        <div>123</div>
+        <>
+            <Button variant={"primary"} as={"a"} href={"/blabla"}>
+                Привет
+            </Button>
+            <Button variant={"secondary"} >
+                Привет
+            </Button>
+        </>
+
     );
 }
 
