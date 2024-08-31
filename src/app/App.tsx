@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from "app/ui/button/button";
-
+import '../styles.scss';
 function App() {
     return (
         <>
