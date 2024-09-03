@@ -1,0 +1,13 @@
+
+.header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: var(--header-height);
+  padding: 12px 24px;
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+}
