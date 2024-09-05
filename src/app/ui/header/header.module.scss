@@ -6,8 +6,23 @@
   top: 0;
   right: 0;
   height: var(--header-height);
-  padding: 12px 24px;
-  background-color: rebeccapurple;
+  padding: 28px 89px;
+  background-color: var(--beige);
   display: flex;
   align-items: center;
+}
+.navigationContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.link {
+  text-decoration: none;
+  color: var(--title);
 }
