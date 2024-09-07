@@ -3,6 +3,7 @@ import {Button} from "app/ui/button/button";
 import React from "react";
 import {Page} from "app/ui/page/page";
 import {Layout} from "app/ui/layout/layout";
+import {SignIn} from "app/pages/sign-in";
 
 const router = createBrowserRouter([
     {
@@ -15,6 +16,11 @@ const router = createBrowserRouter([
                     </Button>
                 </Page>,
             </Layout>
+    },
+    {
+        path: '/sign-in',
+        element:
+        <SignIn/>
     },
     {
         path: '/home',
